@@ -1,0 +1,224 @@
+body{
+    background-color: #141414;
+}
+
+.content{  
+    padding-top: 85px;
+    text-align: center;
+}
+    
+
+.mainheading{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    display: block;
+}
+
+.purpleline {
+    width: 184px;
+    height: 9px;
+    border-radius: 42px;
+    background: #533ED9;
+    text-align: center;
+    margin: 18px auto;
+}
+
+.pleasefill{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 0;
+    display: block;
+}
+
+.containers {
+    /* text-align: center; */
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* label{
+    justify-content: center;
+} */
+
+
+.fullname, .email, .phonenumber, .batch{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width:100%;
+}
+
+input[type=text], input[type=email], input[type=tel], select {
+    margin: 5px 0px 15px 0;
+    border: none;
+    background: #29292A;
+    width: 437px;
+    height: 55px;
+    font-size: 14px;
+    color: white;
+    padding-left: 17px;
+}
+
+button {
+    background-color: #533ED9;
+    border: none;
+    color: #ffff;
+    width: 142px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 34px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    
+}
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #FFF;
+    color: black;    
+}
+
+
+.asterisk {
+    display: inline-block;
+    content: "*";
+    color: red; 
+}
+
+@media  (max-width: 594px) {
+
+    .mainheading{
+        font-size: 30px;
+    }
+
+    .purpleline {
+        width: auto;
+        height: 7px;
+        border-radius: 42px;
+    }
+
+    .pleasefill{
+        font-size: 17px;
+    }
+    .containers {
+        padding: 20px 10px;
+    }
+
+    .fullname, .email, .phonenumber, .batch{
+        font-size: 12px;
+    }
+
+    input[type=text], input[type=email], input[type=tel]{
+        width: 300px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    }
+
+    .btn{
+        margin-top: 5px;
+    }
+
+    button {
+        width: 132px;
+        height: 35px;
+        margin: 2px 2px;
+    }
+
+
+
+@media  (max-width: 463px) {
+
+    .mainheading{
+        font-size: 30px;
+    }
+
+    .purpleline {
+        width: 170px;
+        height: 7px;
+        border-radius: 42px;
+    }
+
+    .pleasefill{
+        font-size: 17px;
+    }
+    .containers {
+        padding: 20px 10px;
+    }
+
+    .fullname, .email, .phonenumber, .batch{
+        font-size: 12px;
+    }
+
+    input[type=text], input[type=email], input[type=tel]{
+        width: auto;
+        height: 35px;
+        font-size: 12px;
+        
+    }
+
+    .btn{
+        margin-top: 5px;
+    }
+
+    button {
+        width: 132px;
+        height: 35px;
+        margin: 2px 2px;
+    }
+
+}
+
+@media  (max-width: 376px) {
+    .mainheading{
+        font-size: 20px;
+    }
+    
+    .pleasefill{
+        font-size: 12px;
+    }
+}
+
+@media  (max-width: 391px) {
+    .mainheading{
+        font-size: 20px;
+    }
+    
+    .pleasefill{
+        font-size: 15px;
+    }
+
+    .purpleline {
+        width: 150px;
+        height: 4px;
+        border-radius: 42px;
+    }
+
+    .containers {
+        padding: 17px 10px;
+    }
+
+
+}
